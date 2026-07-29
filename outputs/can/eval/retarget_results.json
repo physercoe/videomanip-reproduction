@@ -1,0 +1,130 @@
+{
+ "object": "can",
+ "num_envs": 20,
+ "thresh_m": 0.03,
+ "force_N": 0.15,
+ "mass_kg": 0.3,
+ "success_rate": 0.25,
+ "per_env": [
+  {
+   "env": 0,
+   "trial": 0,
+   "disp_m": 56.19708251953125,
+   "success": false
+  },
+  {
+   "env": 1,
+   "trial": 1,
+   "disp_m": 0.00033999429433606565,
+   "success": true
+  },
+  {
+   "env": 2,
+   "trial": 2,
+   "disp_m": 57.19084930419922,
+   "success": false
+  },
+  {
+   "env": 3,
+   "trial": 3,
+   "disp_m": 59.26933288574219,
+   "success": false
+  },
+  {
+   "env": 4,
+   "trial": 4,
+   "disp_m": 54.160892486572266,
+   "success": false
+  },
+  {
+   "env": 5,
+   "trial": 5,
+   "disp_m": 52.7050666809082,
+   "success": false
+  },
+  {
+   "env": 6,
+   "trial": 6,
+   "disp_m": 0.0032605743035674095,
+   "success": true
+  },
+  {
+   "env": 7,
+   "trial": 7,
+   "disp_m": 57.35319900512695,
+   "success": false
+  },
+  {
+   "env": 8,
+   "trial": 0,
+   "disp_m": 58.29238510131836,
+   "success": false
+  },
+  {
+   "env": 9,
+   "trial": 1,
+   "disp_m": 0.022048570215702057,
+   "success": true
+  },
+  {
+   "env": 10,
+   "trial": 2,
+   "disp_m": 58.28466796875,
+   "success": false
+  },
+  {
+   "env": 11,
+   "trial": 3,
+   "disp_m": 57.42136764526367,
+   "success": false
+  },
+  {
+   "env": 12,
+   "trial": 4,
+   "disp_m": 54.58570098876953,
+   "success": false
+  },
+  {
+   "env": 13,
+   "trial": 5,
+   "disp_m": 52.2792854309082,
+   "success": false
+  },
+  {
+   "env": 14,
+   "trial": 6,
+   "disp_m": 0.012388858012855053,
+   "success": true
+  },
+  {
+   "env": 15,
+   "trial": 7,
+   "disp_m": 58.91141128540039,
+   "success": false
+  },
+  {
+   "env": 16,
+   "trial": 0,
+   "disp_m": 57.038047790527344,
+   "success": false
+  },
+  {
+   "env": 17,
+   "trial": 1,
+   "disp_m": 3.950637164962245e-06,
+   "success": true
+  },
+  {
+   "env": 18,
+   "trial": 2,
+   "disp_m": 56.067481994628906,
+   "success": false
+  },
+  {
+   "env": 19,
+   "trial": 3,
+   "disp_m": 58.62017822265625,
+   "success": false
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: >-
+  If you use this reproduction, please cite both the original
+  VideoManip paper and this repository.
+type: software
+title: "VideoManip Reproduction (IsaacLab): dexterous grasping from RGB human videos"
+authors:
+  - name: "The VideoManip Reproduction Authors (github.com/physercoe)"
+url: "https://github.com/physercoe/videomanip-reproduction"
+license: MIT
+year: 2026
+preferred-citation:
+  type: article
+  title: "Dexterous Manipulation Policies from RGB Human Videos via 3D Hand-Object Trajectory Reconstruction"
+  authors:
+    - family-names: Chen
+      given-names: Hongyi
+    - family-names: Dong
+      given-names: Tony
+    - family-names: Wu
+      given-names: Tiancheng
+    - family-names: Wang
+      given-names: Liquan
+    - family-names: Jangir
+      given-names: Yash
+    - family-names: Niu
+      given-names: Yaru
+    - family-names: Ye
+      given-names: Yufei
+    - family-names: Bharadhwaj
+      given-names: Homanga
+    - family-names: Erickson
+      given-names: Zackory
+    - family-names: Ichnowski
+      given-names: Jeffrey
+  year: 2026
+  journal: arXiv preprint
+  url: "https://arxiv.org/abs/2602.09013"

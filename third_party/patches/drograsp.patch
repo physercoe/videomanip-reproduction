@@ -1,0 +1,157 @@
+diff --git a/data_utils/CMapDataset.py b/data_utils/CMapDataset.py
+index 264349a..5dd9e0c 100644
+--- a/data_utils/CMapDataset.py
++++ b/data_utils/CMapDataset.py
+@@ -37,14 +37,15 @@ class CMapDataset(Dataset):
+             self.hands[robot_name] = create_hand_model(robot_name, torch.device('cpu'))
+             self.dofs.append(math.sqrt(self.hands[robot_name].dof))
+ 
+-        split_json_path = os.path.join(ROOT_DIR, f'data/CMapDataset_filtered/split_train_validate_objects.json')
++        dataset_dir = os.environ.get('DRO_DATASET_DIR', 'data/CMapDataset_filtered')
++        split_json_path = os.path.join(ROOT_DIR, f'{dataset_dir}/split_train_validate_objects.json')
+         dataset_split = json.load(open(split_json_path))
+         self.object_names = dataset_split['train'] if is_train else dataset_split['validate']
+         if debug_object_names is not None:
+             print("!!! Using debug objects !!!")
+             self.object_names = debug_object_names
+ 
+-        dataset_path = os.path.join(ROOT_DIR, f'data/CMapDataset_filtered/cmap_dataset.pt')
++        dataset_path = os.path.join(ROOT_DIR, f'{dataset_dir}/cmap_dataset.pt')
+         metadata = torch.load(dataset_path)['metadata']
+         self.metadata = [m for m in metadata if m[1] in self.object_names and m[2] in self.robot_names]
+         if not self.is_train:
+diff --git a/data_utils/removed_links.json b/data_utils/removed_links.json
+index 306bcb9..795c2c9 100644
+--- a/data_utils/removed_links.json
++++ b/data_utils/removed_links.json
+@@ -1,8 +1,19 @@
+ {
+     "allegro": [],
+     "barrett": [],
+-    "ezgripper": ["base_link"],
++    "ezgripper": [
++        "base_link"
++    ],
+     "robotiq_3finger": [],
+-    "shadowhand": ["forearm", "wrist", "ffknuckle", "mfknuckle", "rfknuckle", "lfknuckle", "thbase"],
+-    "leaphand": []
+-}
++    "shadowhand": [
++        "forearm",
++        "wrist",
++        "ffknuckle",
++        "mfknuckle",
++        "rfknuckle",
++        "lfknuckle",
++        "thbase"
++    ],
++    "leaphand": [],
++    "inspire": []
++}
+\ No newline at end of file
+diff --git a/pretrain.py b/pretrain.py
+index 6ff589a..2e51575 100644
+--- a/pretrain.py
++++ b/pretrain.py
+@@ -6,6 +6,7 @@ from omegaconf import OmegaConf
+ import torch
+ import pytorch_lightning as pl
+ from pytorch_lightning.loggers import WandbLogger
++from utils.trackio_logger import TrackioLogger
+ 
+ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+ sys.path.append(ROOT_DIR)
+@@ -23,7 +24,10 @@ def main(cfg):
+ 
+     pl.seed_everything(cfg.seed)
+ 
+-    logger = WandbLogger(
++    if os.environ.get('DRO_WANDB', '0') != '1':
++        logger = TrackioLogger(project=cfg.wandb.project, name=cfg.name)
++    else:
++        logger = WandbLogger(
+         name=cfg.name,
+         save_dir=cfg.wandb.save_dir,
+         project=cfg.wandb.project
+diff --git a/train.py b/train.py
+index baa31e5..783fbee 100644
+--- a/train.py
++++ b/train.py
+@@ -6,6 +6,7 @@ import torch
+ import pytorch_lightning as pl
+ from omegaconf import OmegaConf
+ from pytorch_lightning.loggers import WandbLogger
++from utils.trackio_logger import TrackioLogger
+ 
+ ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+ sys.path.append(ROOT_DIR)
+@@ -40,7 +41,10 @@ def main(cfg):
+         print(f"Loading checkpoint from run_id({last_run_id}): epoch {last_epoch}")
+         print("***************************************************")
+ 
+-    logger = WandbLogger(
++    if os.environ.get('DRO_WANDB', '0') != '1':
++        logger = TrackioLogger(project=cfg.wandb.project, name=cfg.name)
++    else:
++        logger = WandbLogger(
+         name=cfg.name,
+         save_dir=cfg.wandb.save_dir,
+         id=last_run_id,
+@@ -59,6 +63,11 @@ def main(cfg):
+     dataloader = create_dataloader(cfg.dataset, is_train=True)
+ 
+     network = create_network(cfg.model, mode='train')
++    # env-gated full-state-dict init (fine-tuning from a trained epoch_*.pth)
++    init_sd = os.environ.get('DRO_INIT_SD')
++    if init_sd:
++        network.load_state_dict(torch.load(init_sd, map_location='cpu'))
++        print(f"******** Init full network from {init_sd} ********")
+     model = TrainingModule(
+         cfg=cfg.training,
+         network=network,
+diff --git a/utils/trackio_logger.py b/utils/trackio_logger.py
+new file mode 100644
+index 0000000..0d38efc
+--- /dev/null
++++ b/utils/trackio_logger.py
+@@ -0,0 +1,40 @@
++"""Minimal pytorch-lightning Logger that forwards metrics to trackio
++(wandb replacement, per project decision 2026-07-22)."""
++import trackio
++from pytorch_lightning.loggers.logger import Logger
++from pytorch_lightning.utilities import rank_zero_only
++
++
++class TrackioLogger(Logger):
++    def __init__(self, project: str, name: str):
++        super().__init__()
++        self._name = name
++        self._run = trackio.init(project=project, name=name)
++
++    @property
++    def name(self):
++        return self._name
++
++    @property
++    def version(self):
++        return "0"
++
++    @rank_zero_only
++    def log_metrics(self, metrics, step=None):
++        # convert tensors to floats
++        clean = {}
++        for k, v in dict(metrics).items():
++            try:
++                clean[k] = float(v)
++            except (TypeError, ValueError):
++                pass
++        if clean:
++            trackio.log(clean, step=step)
++
++    @rank_zero_only
++    def log_hyperparams(self, params):
++        pass
++
++    @rank_zero_only
++    def finalize(self, status):
++        trackio.finish()

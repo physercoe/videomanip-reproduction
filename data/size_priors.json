@@ -1,0 +1,107 @@
+{
+  "_comment": "Object physical size priors (bbox diagonal, meters), estimated by the Kimi agent from visual inspection of the clips + common-object knowledge. Replaces the paper's GPT-4.1 query (user decision 2026-07-22: 'use kimi-code'). The scale-refinement stage searches 0.5x-2.0x around these values, so rough accuracy suffices.",
+  "spraybottle": {
+    "diag_m": 0.32,
+    "note": "Clorox spray bottle, ~27cm tall, trigger ~13cm wide"
+  },
+  "bottle": {
+    "diag_m": 0.22,
+    "note": "small sauce/drink bottle, ~18cm tall"
+  },
+  "can": {
+    "diag_m": 0.27,
+    "note": "Pringles-style can, ~26cm tall"
+  },
+  "bulb": {
+    "diag_m": 0.22,
+    "note": "bulb+lamp base assembly, ~18cm tall"
+  },
+  "hat": {
+    "diag_m": 0.36,
+    "note": "baseball cap ~27x20x12cm"
+  },
+  "jengabox": {
+    "diag_m": 0.29,
+    "note": "Jenga box ~27x8x8cm"
+  },
+  "pref_apple": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_bottle": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_bowl": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_case": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_cloth_hanger": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_cup": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_hand_bag": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_hat": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_ladle": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_mug": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_pan": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_pot": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_powerdrill": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_scissors": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_soap_dispenser": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_spraybottle": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_sunglass": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_toothbrush": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_umbrella": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  },
+  "pref_wineglass": {
+    "mass_kg": 0.3,
+    "note": "paper GLB object, generic 0.3kg prior"
+  }
+}

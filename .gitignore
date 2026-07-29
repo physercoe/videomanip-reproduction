@@ -1,0 +1,27 @@
+# --- Python / virtualenvs ---
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+*.egg-info/
+.coverage
+secrets/
+
+# --- External repos (NOT vendored) ---
+# Clone at pinned commits + apply patches via scripts/setup_third_party.sh;
+# manifest: third_party/README.md, patches: third_party/patches/.
+third_party/*/
+!third_party/patches/
+
+# --- Large external assets (download per docs/DATA.md) ---
+# WiLoR/HandFlow YOLO detector (see scripts/run_handflow.py)
+detector.pt
+# paper's input clips -> scripts/fetch_paper_data.sh
+data/videos/
+# paper's predicted-grasp GLBs + derived meshes
+data/reference/
+
+# --- Outputs: keep only eval evidence (result jsons, curves, predictions) ---
+outputs/*/*
+!outputs/*/eval/
+!outputs/*/dro/

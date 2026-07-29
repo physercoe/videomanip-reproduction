@@ -1,0 +1,21 @@
+[project]
+name = "videomanip"
+version = "0.1.0"
+description = "Sim-only reproduction of VideoManip (arXiv:2602.09013) with IsaacLab"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "numpy",
+    "trimesh",
+    "opencv-python-headless",
+    "scipy",
+    "matplotlib",
+    "tqdm",
+    "pyyaml",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

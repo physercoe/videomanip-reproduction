@@ -1,0 +1,278 @@
+{
+ "mesh": {
+  "normal_agreement": 0.99609375,
+  "watertight": false
+ },
+ "per_grasp": [
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 380,
+   "contacts_after": 201,
+   "pen_pts_before": 492,
+   "pen_pts_after": 65,
+   "max_pen_mm_before": 7.857720375061035,
+   "max_pen_mm_after": 4.2379608154296875,
+   "dq_fingers_rad": 0.005172848701477051,
+   "dwrist_mm": 1.5188313722610474
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 120,
+   "pen_pts_before": 0,
+   "pen_pts_after": 18,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 3.544405460357666,
+   "dq_fingers_rad": 0.013203710317611694,
+   "dwrist_mm": 0.2727852165699005
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 85,
+   "pen_pts_before": 0,
+   "pen_pts_after": 14,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 3.1079726219177246,
+   "dq_fingers_rad": 0.014142792671918869,
+   "dwrist_mm": 0.2524356245994568
+  },
+  {
+   "contacts_before": 420,
+   "contacts_after": 90,
+   "pen_pts_before": 555,
+   "pen_pts_after": 32,
+   "max_pen_mm_before": 7.955360412597656,
+   "max_pen_mm_after": 3.4475252628326416,
+   "dq_fingers_rad": 0.07655810564756393,
+   "dwrist_mm": 0.6050500273704529
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 274,
+   "contacts_after": 88,
+   "pen_pts_before": 590,
+   "pen_pts_after": 66,
+   "max_pen_mm_before": 7.933361530303955,
+   "max_pen_mm_after": 5.310295104980469,
+   "dq_fingers_rad": 0.00171622633934021,
+   "dwrist_mm": 1.44220769405365
+  },
+  {
+   "contacts_before": 547,
+   "contacts_after": 145,
+   "pen_pts_before": 962,
+   "pen_pts_after": 48,
+   "max_pen_mm_before": 7.9204888343811035,
+   "max_pen_mm_after": 3.504117965698242,
+   "dq_fingers_rad": 0.06746332347393036,
+   "dwrist_mm": 0.9563488960266113
+  },
+  {
+   "contacts_before": 252,
+   "contacts_after": 60,
+   "pen_pts_before": 438,
+   "pen_pts_after": 9,
+   "max_pen_mm_before": 7.939443111419678,
+   "max_pen_mm_after": 1.48967444896698,
+   "dq_fingers_rad": 0.07731488347053528,
+   "dwrist_mm": 3.152667760848999
+  },
+  {
+   "contacts_before": 197,
+   "contacts_after": 138,
+   "pen_pts_before": 741,
+   "pen_pts_after": 59,
+   "max_pen_mm_before": 7.933014869689941,
+   "max_pen_mm_after": 3.563161611557007,
+   "dq_fingers_rad": 0.041803643107414246,
+   "dwrist_mm": 1.4891437292099
+  },
+  {
+   "contacts_before": 157,
+   "contacts_after": 129,
+   "pen_pts_before": 775,
+   "pen_pts_after": 72,
+   "max_pen_mm_before": 7.923478126525879,
+   "max_pen_mm_after": 4.782580375671387,
+   "dq_fingers_rad": 0.05269789695739746,
+   "dwrist_mm": 0.34764546155929565
+  },
+  {
+   "contacts_before": 292,
+   "contacts_after": 240,
+   "pen_pts_before": 398,
+   "pen_pts_after": 62,
+   "max_pen_mm_before": 7.950612545013428,
+   "max_pen_mm_after": 2.7406563758850098,
+   "dq_fingers_rad": 0.18017566204071045,
+   "dwrist_mm": 1.968687891960144
+  },
+  {
+   "contacts_before": 300,
+   "contacts_after": 165,
+   "pen_pts_before": 711,
+   "pen_pts_after": 52,
+   "max_pen_mm_before": 7.925975322723389,
+   "max_pen_mm_after": 2.180199146270752,
+   "dq_fingers_rad": 0.0813709944486618,
+   "dwrist_mm": 6.896081447601318
+  },
+  {
+   "contacts_before": 347,
+   "contacts_after": 188,
+   "pen_pts_before": 1225,
+   "pen_pts_after": 36,
+   "max_pen_mm_before": 7.944576263427734,
+   "max_pen_mm_after": 3.1477763652801514,
+   "dq_fingers_rad": 0.0780101865530014,
+   "dwrist_mm": 2.0033180713653564
+  },
+  {
+   "contacts_before": 207,
+   "contacts_after": 81,
+   "pen_pts_before": 496,
+   "pen_pts_after": 25,
+   "max_pen_mm_before": 7.923549175262451,
+   "max_pen_mm_after": 3.119117259979248,
+   "dq_fingers_rad": 0.029989510774612427,
+   "dwrist_mm": 0.8549220561981201
+  },
+  {
+   "contacts_before": 386,
+   "contacts_after": 134,
+   "pen_pts_before": 725,
+   "pen_pts_after": 92,
+   "max_pen_mm_before": 7.987955570220947,
+   "max_pen_mm_after": 5.4240803718566895,
+   "dq_fingers_rad": 0.06092312932014465,
+   "dwrist_mm": 1.5876778364181519
+  },
+  {
+   "contacts_before": 166,
+   "contacts_after": 354,
+   "pen_pts_before": 70,
+   "pen_pts_after": 187,
+   "max_pen_mm_before": 2.3496549129486084,
+   "max_pen_mm_after": 3.8703413009643555,
+   "dq_fingers_rad": 0.05690634250640869,
+   "dwrist_mm": 1.6364847421646118
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 384,
+   "contacts_after": 368,
+   "pen_pts_before": 726,
+   "pen_pts_after": 63,
+   "max_pen_mm_before": 7.911545276641846,
+   "max_pen_mm_after": 2.3183939456939697,
+   "dq_fingers_rad": 0.21815906465053558,
+   "dwrist_mm": 1.8579031229019165
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  },
+  {
+   "contacts_before": 0,
+   "contacts_after": 0,
+   "pen_pts_before": 0,
+   "pen_pts_after": 0,
+   "max_pen_mm_before": 0.0,
+   "max_pen_mm_after": 0.0,
+   "dq_fingers_rad": 0.0,
+   "dwrist_mm": 0.0
+  }
+ ]
+}

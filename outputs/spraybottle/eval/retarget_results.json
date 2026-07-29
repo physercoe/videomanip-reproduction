@@ -1,0 +1,130 @@
+{
+ "object": "spraybottle",
+ "num_envs": 20,
+ "thresh_m": 0.03,
+ "force_N": 0.15,
+ "mass_kg": 0.3,
+ "success_rate": 0.15,
+ "per_env": [
+  {
+   "env": 0,
+   "trial": 0,
+   "disp_m": 46.83623504638672,
+   "success": false
+  },
+  {
+   "env": 1,
+   "trial": 1,
+   "disp_m": 58.25698471069336,
+   "success": false
+  },
+  {
+   "env": 2,
+   "trial": 2,
+   "disp_m": 55.70803451538086,
+   "success": false
+  },
+  {
+   "env": 3,
+   "trial": 3,
+   "disp_m": 55.151512145996094,
+   "success": false
+  },
+  {
+   "env": 4,
+   "trial": 4,
+   "disp_m": 57.287052154541016,
+   "success": false
+  },
+  {
+   "env": 5,
+   "trial": 5,
+   "disp_m": 3.9275805647776e-06,
+   "success": true
+  },
+  {
+   "env": 6,
+   "trial": 6,
+   "disp_m": 45.173030853271484,
+   "success": false
+  },
+  {
+   "env": 7,
+   "trial": 0,
+   "disp_m": 46.69934844970703,
+   "success": false
+  },
+  {
+   "env": 8,
+   "trial": 1,
+   "disp_m": 41.428688049316406,
+   "success": false
+  },
+  {
+   "env": 9,
+   "trial": 2,
+   "disp_m": 77.60910034179688,
+   "success": false
+  },
+  {
+   "env": 10,
+   "trial": 3,
+   "disp_m": 58.25496292114258,
+   "success": false
+  },
+  {
+   "env": 11,
+   "trial": 4,
+   "disp_m": 58.05279541015625,
+   "success": false
+  },
+  {
+   "env": 12,
+   "trial": 5,
+   "disp_m": 7.216546237032162e-06,
+   "success": true
+  },
+  {
+   "env": 13,
+   "trial": 6,
+   "disp_m": 54.19295883178711,
+   "success": false
+  },
+  {
+   "env": 14,
+   "trial": 0,
+   "disp_m": 50.10770797729492,
+   "success": false
+  },
+  {
+   "env": 15,
+   "trial": 1,
+   "disp_m": 51.92753601074219,
+   "success": false
+  },
+  {
+   "env": 16,
+   "trial": 2,
+   "disp_m": 53.50975036621094,
+   "success": false
+  },
+  {
+   "env": 17,
+   "trial": 3,
+   "disp_m": 58.35309982299805,
+   "success": false
+  },
+  {
+   "env": 18,
+   "trial": 4,
+   "disp_m": 56.77802658081055,
+   "success": false
+  },
+  {
+   "env": 19,
+   "trial": 5,
+   "disp_m": 1.5852319847908802e-06,
+   "success": true
+  }
+ ]
+}

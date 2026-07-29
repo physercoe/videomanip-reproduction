@@ -1,0 +1,132 @@
+{
+ "object": "hat",
+ "num_envs": 20,
+ "thresh_m": 0.03,
+ "force_N": 0.15,
+ "mass_kg": 0.3,
+ "rand_dirs": 0,
+ "force_scale": 1.0,
+ "success_rate": 0.1,
+ "per_env": [
+  {
+   "env": 0,
+   "trial": 0,
+   "disp_m": 53.407470703125,
+   "success": false
+  },
+  {
+   "env": 1,
+   "trial": 1,
+   "disp_m": 36.71292495727539,
+   "success": false
+  },
+  {
+   "env": 2,
+   "trial": 2,
+   "disp_m": 50.63351058959961,
+   "success": false
+  },
+  {
+   "env": 3,
+   "trial": 3,
+   "disp_m": 52.16331481933594,
+   "success": false
+  },
+  {
+   "env": 4,
+   "trial": 4,
+   "disp_m": 24.217506408691406,
+   "success": false
+  },
+  {
+   "env": 5,
+   "trial": 0,
+   "disp_m": 45.674285888671875,
+   "success": false
+  },
+  {
+   "env": 6,
+   "trial": 1,
+   "disp_m": 28.114425659179688,
+   "success": false
+  },
+  {
+   "env": 7,
+   "trial": 2,
+   "disp_m": 50.905052185058594,
+   "success": false
+  },
+  {
+   "env": 8,
+   "trial": 3,
+   "disp_m": 47.34542465209961,
+   "success": false
+  },
+  {
+   "env": 9,
+   "trial": 4,
+   "disp_m": 0.0010336025152355433,
+   "success": true
+  },
+  {
+   "env": 10,
+   "trial": 0,
+   "disp_m": 48.50615692138672,
+   "success": false
+  },
+  {
+   "env": 11,
+   "trial": 1,
+   "disp_m": 25.838314056396484,
+   "success": false
+  },
+  {
+   "env": 12,
+   "trial": 2,
+   "disp_m": 44.45565414428711,
+   "success": false
+  },
+  {
+   "env": 13,
+   "trial": 3,
+   "disp_m": 48.797054290771484,
+   "success": false
+  },
+  {
+   "env": 14,
+   "trial": 4,
+   "disp_m": 29.653179168701172,
+   "success": false
+  },
+  {
+   "env": 15,
+   "trial": 0,
+   "disp_m": 51.944679260253906,
+   "success": false
+  },
+  {
+   "env": 16,
+   "trial": 1,
+   "disp_m": 2.5380200895597227e-05,
+   "success": true
+  },
+  {
+   "env": 17,
+   "trial": 2,
+   "disp_m": 49.74917221069336,
+   "success": false
+  },
+  {
+   "env": 18,
+   "trial": 3,
+   "disp_m": 48.474525451660156,
+   "success": false
+  },
+  {
+   "env": 19,
+   "trial": 4,
+   "disp_m": 20.415739059448242,
+   "success": false
+  }
+ ]
+}

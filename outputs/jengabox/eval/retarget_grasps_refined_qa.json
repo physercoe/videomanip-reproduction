@@ -1,0 +1,58 @@
+{
+ "mesh": {
+  "normal_agreement": 1.0,
+  "watertight": false
+ },
+ "per_grasp": [
+  {
+   "contacts_before": 348,
+   "contacts_after": 561,
+   "pen_pts_before": 300,
+   "pen_pts_after": 114,
+   "max_pen_mm_before": 7.8040313720703125,
+   "max_pen_mm_after": 5.218746185302734,
+   "dq_fingers_rad": 0.06740576773881912,
+   "dwrist_mm": 0.39710429310798645
+  },
+  {
+   "contacts_before": 1067,
+   "contacts_after": 1483,
+   "pen_pts_before": 1066,
+   "pen_pts_after": 623,
+   "max_pen_mm_before": 7.937379360198975,
+   "max_pen_mm_after": 7.913979530334473,
+   "dq_fingers_rad": 0.07562977075576782,
+   "dwrist_mm": 0.5522730350494385
+  },
+  {
+   "contacts_before": 980,
+   "contacts_after": 1598,
+   "pen_pts_before": 1087,
+   "pen_pts_after": 596,
+   "max_pen_mm_before": 7.977087020874023,
+   "max_pen_mm_after": 7.850241661071777,
+   "dq_fingers_rad": 0.08286060392856598,
+   "dwrist_mm": 0.5328425168991089
+  },
+  {
+   "contacts_before": 670,
+   "contacts_after": 1307,
+   "pen_pts_before": 922,
+   "pen_pts_after": 876,
+   "max_pen_mm_before": 7.950822830200195,
+   "max_pen_mm_after": 7.967796325683594,
+   "dq_fingers_rad": 0.04619415104389191,
+   "dwrist_mm": 0.6207214593887329
+  },
+  {
+   "contacts_before": 1266,
+   "contacts_after": 1856,
+   "pen_pts_before": 735,
+   "pen_pts_after": 907,
+   "max_pen_mm_before": 7.869412899017334,
+   "max_pen_mm_after": 7.903720378875732,
+   "dq_fingers_rad": 0.029488682746887207,
+   "dwrist_mm": 0.6053661108016968
+  }
+ ]
+}

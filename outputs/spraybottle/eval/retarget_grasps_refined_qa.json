@@ -1,0 +1,78 @@
+{
+ "mesh": {
+  "normal_agreement": 1.0,
+  "watertight": false
+ },
+ "per_grasp": [
+  {
+   "contacts_before": 211,
+   "contacts_after": 102,
+   "pen_pts_before": 135,
+   "pen_pts_after": 53,
+   "max_pen_mm_before": 7.856874942779541,
+   "max_pen_mm_after": 6.710269927978516,
+   "dq_fingers_rad": 0.05458855628967285,
+   "dwrist_mm": 0.4365471303462982
+  },
+  {
+   "contacts_before": 190,
+   "contacts_after": 231,
+   "pen_pts_before": 53,
+   "pen_pts_after": 61,
+   "max_pen_mm_before": 7.79970121383667,
+   "max_pen_mm_after": 7.749000549316406,
+   "dq_fingers_rad": 0.03726363182067871,
+   "dwrist_mm": 0.22029529511928558
+  },
+  {
+   "contacts_before": 636,
+   "contacts_after": 398,
+   "pen_pts_before": 682,
+   "pen_pts_after": 181,
+   "max_pen_mm_before": 7.89136266708374,
+   "max_pen_mm_after": 7.810227394104004,
+   "dq_fingers_rad": 0.0880776047706604,
+   "dwrist_mm": 1.2582329511642456
+  },
+  {
+   "contacts_before": 158,
+   "contacts_after": 48,
+   "pen_pts_before": 321,
+   "pen_pts_after": 27,
+   "max_pen_mm_before": 7.879679203033447,
+   "max_pen_mm_after": 4.4162163734436035,
+   "dq_fingers_rad": 0.06853340566158295,
+   "dwrist_mm": 1.594699740409851
+  },
+  {
+   "contacts_before": 376,
+   "contacts_after": 153,
+   "pen_pts_before": 400,
+   "pen_pts_after": 101,
+   "max_pen_mm_before": 7.914968013763428,
+   "max_pen_mm_after": 7.037537574768066,
+   "dq_fingers_rad": 0.11910676956176758,
+   "dwrist_mm": 0.9985092282295227
+  },
+  {
+   "contacts_before": 145,
+   "contacts_after": 88,
+   "pen_pts_before": 143,
+   "pen_pts_after": 42,
+   "max_pen_mm_before": 7.926061630249023,
+   "max_pen_mm_after": 7.460057735443115,
+   "dq_fingers_rad": 0.012804508209228516,
+   "dwrist_mm": 0.6572876572608948
+  },
+  {
+   "contacts_before": 173,
+   "contacts_after": 175,
+   "pen_pts_before": 32,
+   "pen_pts_after": 26,
+   "max_pen_mm_before": 7.872259140014648,
+   "max_pen_mm_after": 7.083512783050537,
+   "dq_fingers_rad": 0.009697336703538895,
+   "dwrist_mm": 1.1879432201385498
+  }
+ ]
+}

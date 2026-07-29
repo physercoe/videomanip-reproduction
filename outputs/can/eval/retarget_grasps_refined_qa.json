@@ -1,0 +1,88 @@
+{
+ "mesh": {
+  "normal_agreement": 1.0,
+  "watertight": false
+ },
+ "per_grasp": [
+  {
+   "contacts_before": 365,
+   "contacts_after": 1849,
+   "pen_pts_before": 477,
+   "pen_pts_after": 754,
+   "max_pen_mm_before": 7.974623680114746,
+   "max_pen_mm_after": 7.965062618255615,
+   "dq_fingers_rad": 0.02849745936691761,
+   "dwrist_mm": 0.6591119170188904
+  },
+  {
+   "contacts_before": 550,
+   "contacts_after": 520,
+   "pen_pts_before": 556,
+   "pen_pts_after": 312,
+   "max_pen_mm_before": 7.973237037658691,
+   "max_pen_mm_after": 7.900038719177246,
+   "dq_fingers_rad": 0.005722075700759888,
+   "dwrist_mm": 0.8600243330001831
+  },
+  {
+   "contacts_before": 557,
+   "contacts_after": 1233,
+   "pen_pts_before": 191,
+   "pen_pts_after": 331,
+   "max_pen_mm_before": 7.938992023468018,
+   "max_pen_mm_after": 7.928097724914551,
+   "dq_fingers_rad": 0.04320898652076721,
+   "dwrist_mm": 0.27155643701553345
+  },
+  {
+   "contacts_before": 447,
+   "contacts_after": 1184,
+   "pen_pts_before": 1025,
+   "pen_pts_after": 733,
+   "max_pen_mm_before": 7.969960689544678,
+   "max_pen_mm_after": 7.936392784118652,
+   "dq_fingers_rad": 0.05666220560669899,
+   "dwrist_mm": 1.2776939868927002
+  },
+  {
+   "contacts_before": 368,
+   "contacts_after": 292,
+   "pen_pts_before": 369,
+   "pen_pts_after": 161,
+   "max_pen_mm_before": 7.886672496795654,
+   "max_pen_mm_after": 7.916787624359131,
+   "dq_fingers_rad": 0.001390993595123291,
+   "dwrist_mm": 0.4777349531650543
+  },
+  {
+   "contacts_before": 463,
+   "contacts_after": 382,
+   "pen_pts_before": 338,
+   "pen_pts_after": 305,
+   "max_pen_mm_before": 7.959463596343994,
+   "max_pen_mm_after": 7.9365081787109375,
+   "dq_fingers_rad": 0.0040991902351379395,
+   "dwrist_mm": 1.497475504875183
+  },
+  {
+   "contacts_before": 488,
+   "contacts_after": 942,
+   "pen_pts_before": 441,
+   "pen_pts_after": 529,
+   "max_pen_mm_before": 7.907559394836426,
+   "max_pen_mm_after": 7.939384460449219,
+   "dq_fingers_rad": 0.019673019647598267,
+   "dwrist_mm": 1.220118761062622
+  },
+  {
+   "contacts_before": 328,
+   "contacts_after": 305,
+   "pen_pts_before": 285,
+   "pen_pts_after": 239,
+   "max_pen_mm_before": 7.912049770355225,
+   "max_pen_mm_after": 7.892196178436279,
+   "dq_fingers_rad": 0.004002004861831665,
+   "dwrist_mm": 1.3172622919082642
+  }
+ ]
+}

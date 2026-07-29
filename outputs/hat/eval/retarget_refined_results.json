@@ -1,0 +1,130 @@
+{
+ "object": "hat",
+ "num_envs": 20,
+ "thresh_m": 0.03,
+ "force_N": 0.15,
+ "mass_kg": 0.3,
+ "success_rate": 0.95,
+ "per_env": [
+  {
+   "env": 0,
+   "trial": 0,
+   "disp_m": 0.0006920522428117692,
+   "success": true
+  },
+  {
+   "env": 1,
+   "trial": 1,
+   "disp_m": 0.0014043297851458192,
+   "success": true
+  },
+  {
+   "env": 2,
+   "trial": 2,
+   "disp_m": 0.014795741066336632,
+   "success": true
+  },
+  {
+   "env": 3,
+   "trial": 3,
+   "disp_m": 0.00030173035338521004,
+   "success": true
+  },
+  {
+   "env": 4,
+   "trial": 4,
+   "disp_m": 0.004262018017470837,
+   "success": true
+  },
+  {
+   "env": 5,
+   "trial": 0,
+   "disp_m": 0.017493771389126778,
+   "success": true
+  },
+  {
+   "env": 6,
+   "trial": 1,
+   "disp_m": 0.00267156888730824,
+   "success": true
+  },
+  {
+   "env": 7,
+   "trial": 2,
+   "disp_m": 4.8492852329218294e-06,
+   "success": true
+  },
+  {
+   "env": 8,
+   "trial": 3,
+   "disp_m": 0.0015035775722935796,
+   "success": true
+  },
+  {
+   "env": 9,
+   "trial": 4,
+   "disp_m": 0.0006955642602406442,
+   "success": true
+  },
+  {
+   "env": 10,
+   "trial": 0,
+   "disp_m": 0.0008529278566129506,
+   "success": true
+  },
+  {
+   "env": 11,
+   "trial": 1,
+   "disp_m": 50.005794525146484,
+   "success": false
+  },
+  {
+   "env": 12,
+   "trial": 2,
+   "disp_m": 1.3566059351433069e-05,
+   "success": true
+  },
+  {
+   "env": 13,
+   "trial": 3,
+   "disp_m": 0.00014632419333793223,
+   "success": true
+  },
+  {
+   "env": 14,
+   "trial": 4,
+   "disp_m": 5.104369483888149e-05,
+   "success": true
+  },
+  {
+   "env": 15,
+   "trial": 0,
+   "disp_m": 5.922059062868357e-05,
+   "success": true
+  },
+  {
+   "env": 16,
+   "trial": 1,
+   "disp_m": 0.006864387542009354,
+   "success": true
+  },
+  {
+   "env": 17,
+   "trial": 2,
+   "disp_m": 0.022319043055176735,
+   "success": true
+  },
+  {
+   "env": 18,
+   "trial": 3,
+   "disp_m": 0.0006821018178015947,
+   "success": true
+  },
+  {
+   "env": 19,
+   "trial": 4,
+   "disp_m": 0.0003465962363407016,
+   "success": true
+  }
+ ]
+}

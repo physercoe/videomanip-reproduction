@@ -1,0 +1,130 @@
+{
+ "object": "bottle",
+ "num_envs": 20,
+ "thresh_m": 0.03,
+ "force_N": 0.15,
+ "mass_kg": 0.3,
+ "success_rate": 0.0,
+ "per_env": [
+  {
+   "env": 0,
+   "trial": 0,
+   "disp_m": 65.03068542480469,
+   "success": false
+  },
+  {
+   "env": 1,
+   "trial": 1,
+   "disp_m": 56.6771240234375,
+   "success": false
+  },
+  {
+   "env": 2,
+   "trial": 2,
+   "disp_m": 60.97467803955078,
+   "success": false
+  },
+  {
+   "env": 3,
+   "trial": 3,
+   "disp_m": 56.54413604736328,
+   "success": false
+  },
+  {
+   "env": 4,
+   "trial": 4,
+   "disp_m": 67.15495300292969,
+   "success": false
+  },
+  {
+   "env": 5,
+   "trial": 5,
+   "disp_m": 44.38516616821289,
+   "success": false
+  },
+  {
+   "env": 6,
+   "trial": 0,
+   "disp_m": 63.715904235839844,
+   "success": false
+  },
+  {
+   "env": 7,
+   "trial": 1,
+   "disp_m": 62.563232421875,
+   "success": false
+  },
+  {
+   "env": 8,
+   "trial": 2,
+   "disp_m": 62.72709274291992,
+   "success": false
+  },
+  {
+   "env": 9,
+   "trial": 3,
+   "disp_m": 56.46914291381836,
+   "success": false
+  },
+  {
+   "env": 10,
+   "trial": 4,
+   "disp_m": 61.965065002441406,
+   "success": false
+  },
+  {
+   "env": 11,
+   "trial": 5,
+   "disp_m": 49.31578826904297,
+   "success": false
+  },
+  {
+   "env": 12,
+   "trial": 0,
+   "disp_m": 62.4604606628418,
+   "success": false
+  },
+  {
+   "env": 13,
+   "trial": 1,
+   "disp_m": 55.78143310546875,
+   "success": false
+  },
+  {
+   "env": 14,
+   "trial": 2,
+   "disp_m": 60.94062423706055,
+   "success": false
+  },
+  {
+   "env": 15,
+   "trial": 3,
+   "disp_m": 57.154762268066406,
+   "success": false
+  },
+  {
+   "env": 16,
+   "trial": 4,
+   "disp_m": 64.6130599975586,
+   "success": false
+  },
+  {
+   "env": 17,
+   "trial": 5,
+   "disp_m": 43.97636413574219,
+   "success": false
+  },
+  {
+   "env": 18,
+   "trial": 0,
+   "disp_m": 64.96487426757812,
+   "success": false
+  },
+  {
+   "env": 19,
+   "trial": 1,
+   "disp_m": 57.82248306274414,
+   "success": false
+  }
+ ]
+}

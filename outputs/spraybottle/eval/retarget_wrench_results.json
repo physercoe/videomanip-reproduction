@@ -1,0 +1,132 @@
+{
+ "object": "spraybottle",
+ "num_envs": 20,
+ "thresh_m": 0.03,
+ "force_N": 0.15,
+ "mass_kg": 0.3,
+ "rand_dirs": 0,
+ "force_scale": 1.0,
+ "success_rate": 0.1,
+ "per_env": [
+  {
+   "env": 0,
+   "trial": 0,
+   "disp_m": 52.17925262451172,
+   "success": false
+  },
+  {
+   "env": 1,
+   "trial": 1,
+   "disp_m": 0.044639840722084045,
+   "success": false
+  },
+  {
+   "env": 2,
+   "trial": 2,
+   "disp_m": 54.66170883178711,
+   "success": false
+  },
+  {
+   "env": 3,
+   "trial": 3,
+   "disp_m": 56.72595977783203,
+   "success": false
+  },
+  {
+   "env": 4,
+   "trial": 4,
+   "disp_m": 60.44051742553711,
+   "success": false
+  },
+  {
+   "env": 5,
+   "trial": 5,
+   "disp_m": 51.877227783203125,
+   "success": false
+  },
+  {
+   "env": 6,
+   "trial": 6,
+   "disp_m": 55.1921501159668,
+   "success": false
+  },
+  {
+   "env": 7,
+   "trial": 0,
+   "disp_m": 53.47232437133789,
+   "success": false
+  },
+  {
+   "env": 8,
+   "trial": 1,
+   "disp_m": 0.00010613525955704972,
+   "success": true
+  },
+  {
+   "env": 9,
+   "trial": 2,
+   "disp_m": 66.27383422851562,
+   "success": false
+  },
+  {
+   "env": 10,
+   "trial": 3,
+   "disp_m": 56.723846435546875,
+   "success": false
+  },
+  {
+   "env": 11,
+   "trial": 4,
+   "disp_m": 63.23849868774414,
+   "success": false
+  },
+  {
+   "env": 12,
+   "trial": 5,
+   "disp_m": 53.268672943115234,
+   "success": false
+  },
+  {
+   "env": 13,
+   "trial": 6,
+   "disp_m": 52.62421417236328,
+   "success": false
+  },
+  {
+   "env": 14,
+   "trial": 0,
+   "disp_m": 59.17098617553711,
+   "success": false
+  },
+  {
+   "env": 15,
+   "trial": 1,
+   "disp_m": 4.1676958062453195e-06,
+   "success": true
+  },
+  {
+   "env": 16,
+   "trial": 2,
+   "disp_m": 62.86843490600586,
+   "success": false
+  },
+  {
+   "env": 17,
+   "trial": 3,
+   "disp_m": 56.71208190917969,
+   "success": false
+  },
+  {
+   "env": 18,
+   "trial": 4,
+   "disp_m": 60.78138732910156,
+   "success": false
+  },
+  {
+   "env": 19,
+   "trial": 5,
+   "disp_m": 56.83169174194336,
+   "success": false
+  }
+ ]
+}

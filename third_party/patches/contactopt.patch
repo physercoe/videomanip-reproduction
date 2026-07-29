@@ -1,0 +1,13 @@
+diff --git a/contactopt/pointnet.py b/contactopt/pointnet.py
+index d6c0bb3..817cf0d 100644
+--- a/contactopt/pointnet.py
++++ b/contactopt/pointnet.py
+@@ -7,7 +7,7 @@ from torch.nn import Sequential as Seq, Linear as Lin, ReLU, BatchNorm1d as BN
+ from torch_geometric.datasets import ModelNet
+ import torch_geometric.transforms as T
+ from torch_geometric.data import DataLoader
+-from torch_geometric.nn import PointConv, fps, radius, global_max_pool, knn_interpolate
++from torch_geometric.nn import PointNetConv as PointConv, fps, radius, global_max_pool, knn_interpolate
+ 
+ 
+ class SAModule(torch.nn.Module):

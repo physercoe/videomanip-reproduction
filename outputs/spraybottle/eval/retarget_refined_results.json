@@ -1,0 +1,130 @@
+{
+ "object": "spraybottle",
+ "num_envs": 20,
+ "thresh_m": 0.03,
+ "force_N": 0.15,
+ "mass_kg": 0.3,
+ "success_rate": 0.25,
+ "per_env": [
+  {
+   "env": 0,
+   "trial": 0,
+   "disp_m": 2.6171199351665564e-05,
+   "success": true
+  },
+  {
+   "env": 1,
+   "trial": 1,
+   "disp_m": 48.96712112426758,
+   "success": false
+  },
+  {
+   "env": 2,
+   "trial": 2,
+   "disp_m": 49.17892074584961,
+   "success": false
+  },
+  {
+   "env": 3,
+   "trial": 3,
+   "disp_m": 64.01739501953125,
+   "success": false
+  },
+  {
+   "env": 4,
+   "trial": 4,
+   "disp_m": 54.16192626953125,
+   "success": false
+  },
+  {
+   "env": 5,
+   "trial": 5,
+   "disp_m": 4.642655312636634e-06,
+   "success": true
+  },
+  {
+   "env": 6,
+   "trial": 6,
+   "disp_m": 55.32917404174805,
+   "success": false
+  },
+  {
+   "env": 7,
+   "trial": 0,
+   "disp_m": 54.74856948852539,
+   "success": false
+  },
+  {
+   "env": 8,
+   "trial": 1,
+   "disp_m": 53.49003601074219,
+   "success": false
+  },
+  {
+   "env": 9,
+   "trial": 2,
+   "disp_m": 50.75688552856445,
+   "success": false
+  },
+  {
+   "env": 10,
+   "trial": 3,
+   "disp_m": 61.00515365600586,
+   "success": false
+  },
+  {
+   "env": 11,
+   "trial": 4,
+   "disp_m": 51.82461929321289,
+   "success": false
+  },
+  {
+   "env": 12,
+   "trial": 5,
+   "disp_m": 3.617545417000656e-06,
+   "success": true
+  },
+  {
+   "env": 13,
+   "trial": 6,
+   "disp_m": 54.24452590942383,
+   "success": false
+  },
+  {
+   "env": 14,
+   "trial": 0,
+   "disp_m": 49.5472526550293,
+   "success": false
+  },
+  {
+   "env": 15,
+   "trial": 1,
+   "disp_m": 52.9986572265625,
+   "success": false
+  },
+  {
+   "env": 16,
+   "trial": 2,
+   "disp_m": 5.101053830003366e-06,
+   "success": true
+  },
+  {
+   "env": 17,
+   "trial": 3,
+   "disp_m": 60.49837875366211,
+   "success": false
+  },
+  {
+   "env": 18,
+   "trial": 4,
+   "disp_m": 46.854637145996094,
+   "success": false
+  },
+  {
+   "env": 19,
+   "trial": 5,
+   "disp_m": 6.742833420503302e-07,
+   "success": true
+  }
+ ]
+}
