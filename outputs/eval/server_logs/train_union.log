@@ -1,0 +1,231 @@
+Seed set to 42
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Unknown tag "mujoco" in /robot[@name='inspire_right']
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/2
+[rank: 1] Seed set to 42
+Unknown tag "mujoco" in /robot[@name='inspire_right']
+Initializing distributed: GLOBAL_RANK: 1, MEMBER: 2/2
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 2 processes
+----------------------------------------------------------------------------------------------------
+
+LOCAL_RANK: 1 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+******************************** [Config] ********************************
+output_dir: output/${name}
+log_dir: ${output_dir}/log
+wandb:
+  save_dir: ${log_dir}
+  project: DROGrasp
+lightning:
+  checkpoint_dir: ${log_dir}/checkpoints
+model:
+  emb_dim: 512
+  latent_dim: 64
+  pretrain: pretrain_inspire.pth
+  center_pc: true
+  block_computing: true
+dataset:
+  robot_names:
+  - barrett
+  - allegro
+  - shadowhand
+  - ezgripper
+  - robotiq_3finger
+  - inspire
+  debug_object_names: null
+  batch_size: 16
+  num_workers: 16
+  object_pc_type: random
+name: videomanip_mixed3x_union
+seed: 42
+gpu:
+- 2
+- 3
+load_from_checkpoint: false
+log_every_n_steps: 5
+training:
+  max_epochs: 20
+  save_dir: ${output_dir}/state_dict
+  save_every_n_epoch: 1
+  lr: 0.0001
+  loss_kl: true
+  loss_kl_weight: 0.01
+  loss_r: true
+  loss_r_weight: 1
+  loss_se3: true
+  loss_se3_weight: 0.01
+  loss_depth: true
+  loss_depth_weight: 1
+
+******************************** [Config] ********************************
+* Trackio project initialized: DROGrasp
+* Trackio metrics logged to: /home/wb/.cache/huggingface/trackio
+* View dashboard by running in your terminal:
+[1m[38;5;208mtrackio show --project "DROGrasp"[0m
+* or by running in Python: trackio.show(project="DROGrasp")
+* Created new run: videomanip_mixed3x_union
+******** Load embedding network pretrain from <pretrain_inspire.pth> ********
+┏━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name    ┃ Type    ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ network │ Network │ 14.0 M │ train │     0 │
+└───┴─────────┴─────────┴────────┴───────┴───────┘
+Trainable params: 14.0 M                                                        
+Non-trainable params: 0                                                         
+Total params: 14.0 M                                                            
+Total estimated model params size (MB): 56.094                                  
+Modules in train mode: 199                                                      
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+******************************** [Config] ********************************
+output_dir: output/${name}
+log_dir: ${output_dir}/log
+wandb:
+  save_dir: ${log_dir}
+  project: DROGrasp
+lightning:
+  checkpoint_dir: ${log_dir}/checkpoints
+model:
+  emb_dim: 512
+  latent_dim: 64
+  pretrain: pretrain_inspire.pth
+  center_pc: true
+  block_computing: true
+dataset:
+  robot_names:
+  - barrett
+  - allegro
+  - shadowhand
+  - ezgripper
+  - robotiq_3finger
+  - inspire
+  debug_object_names: null
+  batch_size: 16
+  num_workers: 16
+  object_pc_type: random
+name: videomanip_mixed3x_union
+seed: 42
+gpu:
+- 2
+- 3
+load_from_checkpoint: false
+log_every_n_steps: 5
+training:
+  max_epochs: 20
+  save_dir: ${output_dir}/state_dict
+  save_every_n_epoch: 1
+  lr: 0.0001
+  loss_kl: true
+  loss_kl_weight: 0.01
+  loss_r: true
+  loss_r_weight: 1
+  loss_se3: true
+  loss_se3_weight: 0.01
+  loss_depth: true
+  loss_depth_weight: 1
+
+******************************** [Config] ********************************
+* Trackio project initialized: DROGrasp
+* Trackio metrics logged to: /home/wb/.cache/huggingface/trackio
+* View dashboard by running in your terminal:
+[1m[38;5;208mtrackio show --project "DROGrasp"[0m
+* or by running in Python: trackio.show(project="DROGrasp")
+* Created new run: videomanip_mixed3x_union
+******** Load embedding network pretrain from <pretrain_inspire.pth> ********
+Training epoch: 1
+Saving state_dict at epoch: 1
+Training epoch: 2
+Saving state_dict at epoch: 2
+Training epoch: 3
+Saving state_dict at epoch: 3
+Training epoch: 4
+Saving state_dict at epoch: 4
+Training epoch: 5
+Saving state_dict at epoch: 5
+Training epoch: 6
+Saving state_dict at epoch: 6
+Training epoch: 7
+Saving state_dict at epoch: 7
+Training epoch: 8
+Saving state_dict at epoch: 8
+Training epoch: 9
+Saving state_dict at epoch: 9
+Training epoch: 10
+Saving state_dict at epoch: 10
+Training epoch: 11
+Saving state_dict at epoch: 11
+Training epoch: 12
+Saving state_dict at epoch: 12
+Training epoch: 13
+Saving state_dict at epoch: 13
+Training epoch: 14
+Saving state_dict at epoch: 14
+Training epoch: 15
+Saving state_dict at epoch: 15
+Training epoch: 16
+Saving state_dict at epoch: 16
+Training epoch: 17
+Saving state_dict at epoch: 17
+Training epoch: 18
+Saving state_dict at epoch: 18
+Training epoch: 19
+Saving state_dict at epoch: 19
+`Trainer.fit` stopped: `max_epochs=20` reached.
+Training epoch: 20
+Saving state_dict at epoch: 20
+
+* Run finished. Uploading logs to Trackio (please wait...)
+Error executing job with overrides: ['name=videomanip_mixed3x_union', 'dataset.robot_names=[barrett,allegro,shadowhand,ezgripper,robotiq_3finger,inspire]', 'dataset.batch_size=16', 'dataset.num_workers=16', 'gpu=[2,3]', 'training.max_epochs=20', 'training.save_every_n_epoch=1', 'model.pretrain=pretrain_inspire.pth']
+Traceback (most recent call last):
+  File "/tmp/vm/drograsp/train.py", line 78, in main
+    trainer.fit(model, dataloader, ckpt_path=last_ckpt_file)
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 584, in fit
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 48, in _call_and_handle_interrupt
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/strategies/launchers/subprocess_script.py", line 105, in launch
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 630, in _fit_impl
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/trainer/trainer.py", line 1092, in _run
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 139, in _call_teardown_hook
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/trainer/call.py", line 228, in _call_callback_hooks
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/callbacks/progress/rich_progress.py", line 701, in teardown
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/callbacks/progress/rich_progress.py", line 668, in _stop_progress
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/callbacks/progress/rich_progress.py", line 106, in stop
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/progress.py", line 1176, in stop
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/live.py", line 165, in stop
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/live.py", line 276, in refresh
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/console.py", line 1727, in print
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/console.py", line 1338, in render
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/live_render.py", line 91, in __rich_console__
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/console.py", line 1378, in render_lines
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/segment.py", line 333, in split_and_crop_lines
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/console.py", line 1342, in render
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/console.py", line 1338, in render
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/table.py", line 488, in __rich_console__
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/table.py", line 529, in _calculate_column_widths
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/table.py", line 530, in <listcomp>
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/table.py", line 741, in _measure_column
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/measure.py", line 109, in get
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/padding.py", line 132, in __rich_measure__
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/measure.py", line 109, in get
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/text.py", line 712, in __rich_measure__
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/text.py", line 712, in <genexpr>
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/cells.py", line 109, in cell_len
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/cells.py", line 95, in cached_cell_len
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/cells.py", line 131, in _cell_len
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/cells.py", line 132, in <genexpr>
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/cells.py", line 60, in get_character_cell_size
+  File "/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/rich/_unicode_data/__init__.py", line 90, in load
+  File "/home/wb/.local/share/uv/python/cpython-3.11.15-linux-x86_64-gnu/lib/python3.11/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1204, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1176, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1140, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'rich._unicode_data.unicode17-0-0'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+* Run finished. Uploading logs to Trackio (please wait...)

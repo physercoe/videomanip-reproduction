@@ -1,0 +1,280 @@
+=== videomanip_mixed3x_union epoch 1 09:38:13 ===
+  spraybottle: 0.16
+  bottle: 0.54
+  can: 0.28
+  bulb: 0.68
+  hat: 0.9
+  jengabox: 0.96
+=== videomanip_mixed3x_union epoch 2 09:45:31 ===
+  spraybottle: 0.3
+  bottle: 0.62
+  can: 0.7
+  bulb: 0.9
+  hat: 0.78
+  jengabox: 0.94
+=== videomanip_mixed3x_union epoch 3 09:52:50 ===
+  spraybottle: 0.12
+  bottle: 0.52
+  can: 0.48
+  bulb: 0.92
+  hat: 0.62
+  jengabox: 0.84
+=== videomanip_mixed3x_union epoch 4 09:54:59 ===
+  spraybottle: 0.14
+  bottle: 0.52
+  can: 0.54
+  bulb: 0.8
+  hat: 0.62
+  jengabox: 0.68
+=== videomanip_mixed3x_union epoch 5 10:02:13 ===
+  spraybottle: 0.16
+  bottle: 0.14
+  can: 0.12
+  bulb: 0.14
+  hat: 0.76
+  jengabox: 0.48
+=== videomanip_mixed3x_union epoch 6 10:09:26 ===
+  spraybottle: 0.02
+  bottle: 0.0
+  can: 0.02
+  bulb: 0.24
+  hat: 0.6
+  jengabox: 0.26
+=== videomanip_mixed3x_union epoch 7 10:16:36 ===
+  spraybottle: 0.02
+  bottle: 0.02
+  can: 0.02
+  bulb: 0.1
+  hat: 0.36
+  jengabox: 0.0
+=== videomanip_mixed3x_union epoch 8 10:18:34 ===
+  spraybottle: 0.12
+  bottle: 0.02
+  can: 0.04
+  bulb: 0.06
+  hat: 0.28
+  jengabox: 0.04
+=== videomanip_mixed3x_union epoch 9 10:25:42 ===
+  spraybottle: 0.0
+  bottle: 0.0
+  can: 0.0
+  bulb: 0.0
+  hat: 0.7
+  jengabox: 0.0
+=== videomanip_mixed3x_union epoch 10 10:32:43 ===
+  spraybottle: 0.0
+  bottle: 0.0
+  can: 0.0
+  bulb: 0.06
+  hat: 0.54
+  jengabox: 0.08
+=== videomanip_mixed3x_union epoch 11 10:34:40 ===
+  spraybottle: 0.2
+  bottle: 0.02
+  can: 0.14
+  bulb: 0.06
+  hat: 0.82
+  jengabox: 0.1
+=== videomanip_mixed3x_union epoch 12 10:41:47 ===
+  spraybottle: 0.06
+  bottle: 0.16
+  can: 0.1
+  bulb: 0.14
+  hat: 0.72
+  jengabox: 0.26
+=== videomanip_mixed3x_union epoch 13 10:49:19 ===
+  spraybottle: 0.16
+  bottle: 0.1
+  can: 0.1
+  bulb: 0.0
+  hat: 0.54
+  jengabox: 0.08
+=== videomanip_mixed3x_union epoch 14 10:56:56 ===
+  spraybottle: 0.14
+  bottle: 0.44
+  can: 0.32
+  bulb: 0.22
+  hat: 1.0
+  jengabox: 0.56
+=== videomanip_mixed3x_union epoch 15 10:58:59 ===
+  spraybottle: 0.18
+  bottle: 0.2
+  can: 0.16
+  bulb: 0.1
+  hat: 1.0
+  jengabox: 0.28
+=== videomanip_mixed3x_union epoch 16 11:06:29 ===
+  spraybottle: 0.28
+  bottle: 0.4
+  can: 0.14
+  bulb: 0.18
+  hat: 1.0
+  jengabox: 0.6
+=== videomanip_mixed3x_union epoch 17 11:13:41 ===
+  spraybottle: 0.3
+  bottle: 0.5
+  can: 0.1
+  bulb: 0.3
+  hat: 0.98
+  jengabox: 0.76
+=== videomanip_mixed3x_union epoch 18 11:15:51 ===
+  spraybottle: 0.14
+  bottle: 0.08
+  can: 0.02
+  bulb: 0.0
+  hat: 0.94
+  jengabox: 0.0
+=== videomanip_mixed3x_union epoch 19 11:23:01 ===
+  spraybottle: 0.1
+  bottle: 0.24
+  can: 0.18
+  bulb: 0.2
+  hat: 1.0
+  jengabox: 0.72
+=== videomanip_mixed3x_union epoch 20 11:30:16 ===
+  spraybottle: 0.08
+  bottle: 0.32
+  can: 0.14
+  bulb: 0.02
+  hat: 0.84
+  jengabox: 0.16
+=== videomanip_mixed3x_handflow epoch 1 17:39:17 ===
+  spraybottle: 0.12
+  bottle: 0.24
+  can: 0.14
+  bulb: 0.84
+  hat: 0.6
+  jengabox: 0.9
+=== videomanip_mixed3x_handflow epoch 2 17:46:38 ===
+  spraybottle: 0.0
+  bottle: 0.1
+  can: 0.18
+  bulb: 0.94
+  hat: 0.5
+  jengabox: 0.88
+=== videomanip_mixed3x_handflow epoch 3 17:54:34 ===
+  spraybottle: 0.0
+  bottle: 0.24
+  can: 0.06
+  bulb: 0.64
+  hat: 0.82
+  jengabox: 0.24
+=== videomanip_mixed3x_handflow epoch 4 17:57:22 ===
+  spraybottle: 0.04
+  bottle: 0.06
+  can: 0.06
+  bulb: 0.58
+  hat: 0.8
+  jengabox: 0.08
+=== videomanip_mixed3x_handflow epoch 5 18:04:54 ===
+  spraybottle: 0.0
+  bottle: 0.02
+  can: 0.12
+  bulb: 0.26
+  hat: 0.62
+  jengabox: 0.12
+=== videomanip_mixed3x_handflow epoch 6 18:06:56 ===
+  spraybottle: 0.04
+  bottle: 0.12
+  can: 0.18
+  bulb: 0.14
+  hat: 0.78
+  jengabox: 0.14
+=== videomanip_mixed3x_handflow epoch 7 18:14:06 ===
+  spraybottle: 0.0
+  bottle: 0.08
+  can: 0.02
+  bulb: 0.0
+  hat: 0.3
+  jengabox: 0.14
+=== videomanip_mixed3x_handflow epoch 8 18:21:14 ===
+  spraybottle: 0.06
+  bottle: 0.1
+  can: 0.16
+  bulb: 0.08
+  hat: 0.62
+  jengabox: 0.06
+=== videomanip_mixed3x_handflow epoch 9 18:23:14 ===
+  spraybottle: 0.06
+  bottle: 0.16
+  can: 0.3
+  bulb: 0.02
+  hat: 0.68
+  jengabox: 0.26
+=== videomanip_mixed3x_handflow epoch 10 18:30:29 ===
+  spraybottle: 0.08
+  bottle: 0.3
+  can: 0.1
+  bulb: 0.12
+  hat: 0.86
+  jengabox: 0.24
+=== videomanip_mixed3x_handflow epoch 11 18:37:45 ===
+  spraybottle: 0.26
+  bottle: 0.48
+  can: 0.22
+  bulb: 0.14
+  hat: 0.74
+  jengabox: 0.62
+=== videomanip_mixed3x_handflow epoch 12 18:39:53 ===
+  spraybottle: 0.32
+  bottle: 0.14
+  can: 0.18
+  bulb: 0.08
+  hat: 0.78
+  jengabox: 0.28
+=== videomanip_mixed3x_handflow epoch 13 18:47:04 ===
+  spraybottle: 0.18
+  bottle: 0.38
+  can: 0.3
+  bulb: 0.54
+  hat: 0.52
+  jengabox: 0.44
+=== videomanip_mixed3x_handflow epoch 14 18:49:12 ===
+  spraybottle: 0.04
+  bottle: 0.36
+  can: 0.32
+  bulb: 0.12
+  hat: 0.74
+  jengabox: 0.28
+=== videomanip_mixed3x_handflow epoch 15 18:56:20 ===
+  spraybottle: 0.2
+  bottle: 0.2
+  can: 0.22
+  bulb: 0.1
+  hat: 0.78
+  jengabox: 0.26
+=== videomanip_mixed3x_handflow epoch 16 19:03:31 ===
+  spraybottle: 0.38
+  bottle: 0.62
+  can: 0.42
+  bulb: 0.22
+  hat: 0.86
+  jengabox: 0.78
+=== videomanip_mixed3x_handflow epoch 17 19:05:39 ===
+  spraybottle: 0.02
+  bottle: 0.18
+  can: 0.16
+  bulb: 0.12
+  hat: 0.3
+  jengabox: 0.12
+=== videomanip_mixed3x_handflow epoch 18 19:12:49 ===
+  spraybottle: 0.18
+  bottle: 0.24
+  can: 0.06
+  bulb: 0.02
+  hat: 0.8
+  jengabox: 0.44
+=== videomanip_mixed3x_handflow epoch 19 19:20:00 ===
+  spraybottle: 0.08
+  bottle: 0.08
+  can: 0.04
+  bulb: 0.02
+  hat: 0.7
+  jengabox: 0.1
+=== videomanip_mixed3x_handflow epoch 20 19:22:11 ===
+  spraybottle: 0.1
+  bottle: 0.16
+  can: 0.06
+  bulb: 0.1
+  hat: 0.58
+  jengabox: 0.36

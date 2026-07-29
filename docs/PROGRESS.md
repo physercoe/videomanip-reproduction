@@ -721,3 +721,5 @@ GLB grasp fails only because the ~13mm GLB-fit error makes it spawn-overlapping)
   union 1.1G), derived CMapDataset_{videomanip,handflow,union,mixed,mixed3x,
   mixed3x_handflow,mixed3x_union,selfdistill} + PointCloud_videomanip (~25M),
   hand+handflow records (6 obj), predicted-grasp npz, GLB-derived meshes, eval jsons+curves+trackio db.
+  Upload via `scripts/upload_hf.py` (log `outputs/eval/hf_upload.log`): 78/78 jobs OK;
+  remote tree verified = 2996 files / 2.65 GiB (checkpoints 2.5 GiB = 48 epoch ckpts).

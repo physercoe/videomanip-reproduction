@@ -1,0 +1,49 @@
+=== dense epoch 1 09:50:37
+spraybottle: 0.03
+bulb: 0.03
+hat: 0.0
+=== dense epoch 2 09:52:05
+spraybottle: 0.16
+bulb: 0.42
+hat: 0.21
+=== dense epoch 3 09:53:24
+spraybottle: 0.0
+bulb: 0.0
+hat: 0.02
+=== dense epoch 4 09:54:37
+spraybottle: 0.28
+bulb: 0.14
+hat: 0.84
+=== dense epoch 5 09:55:58
+spraybottle: 0.09
+bulb: 0.03
+hat: 0.53
+=== dense epoch 6 10:00:18
+spraybottle: 0.07
+bulb: 0.03
+hat: 0.68
+=== dense epoch 7 10:01:39
+spraybottle: 0.24
+bulb: 0.25
+hat: 0.95
+=== dense epoch 8 10:03:36
+spraybottle: 0.24
+bulb: 0.25
+hat: 0.95
+=== dense epoch 9 10:05:26
+spraybottle: 0.02
+bulb: 0.27
+hat: 0.72
+=== dense epoch 10 10:10:01
+spraybottle: 0.16
+bulb: 0.11
+hat: 0.83
+=== dense epoch 11 10:11:23
+spraybottle: 0.12
+bulb: 0.05
+hat: 0.81
+=== dense epoch 12 10:12:43
+spraybottle: 0.1
+bulb: 0.09
+hat: 0.79
+dense eval done

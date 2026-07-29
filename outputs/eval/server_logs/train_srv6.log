@@ -1,0 +1,154 @@
+Seed set to 42
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+💡 Tip: For seamless cloud logging and experiment tracking, try installing [litlogger](https://pypi.org/project/litlogger/) to enable LitLogger, which logs metrics and artifacts automatically to the Lightning Experiments platform.
+Unknown tag "mujoco" in /robot[@name='inspire_right']
+💡 Tip: For seamless cloud uploads and versioning, try installing [litmodels](https://pypi.org/project/litmodels/) to enable LitModelCheckpoint, which syncs automatically with the Lightning model registry.
+Initializing distributed: GLOBAL_RANK: 0, MEMBER: 1/1
+----------------------------------------------------------------------------------------------------
+distributed_backend=nccl
+All distributed processes registered. Starting with 1 processes
+----------------------------------------------------------------------------------------------------
+
+/tmp/vm/drograsp/.venv/lib/python3.11/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:881: Checkpoint directory /tmp/vm/drograsp/videomanip_inspire_srv/0/checkpoints exists and is not empty.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2,3]
+******************************** [Config] ********************************
+output_dir: output/${name}
+log_dir: ${output_dir}/log
+wandb:
+  save_dir: ${log_dir}
+  project: DROGrasp
+lightning:
+  checkpoint_dir: ${log_dir}/checkpoints
+model:
+  emb_dim: 512
+  latent_dim: 64
+  pretrain: pretrain_inspire.pth
+  center_pc: true
+  block_computing: true
+dataset:
+  robot_names:
+  - inspire
+  debug_object_names: null
+  batch_size: 16
+  num_workers: 12
+  object_pc_type: random
+name: videomanip_inspire_srv
+seed: 42
+gpu:
+- 0
+load_from_checkpoint: false
+log_every_n_steps: 5
+training:
+  max_epochs: 60
+  save_dir: ${output_dir}/state_dict
+  save_every_n_epoch: 5
+  lr: 0.0001
+  loss_kl: true
+  loss_kl_weight: 0.01
+  loss_r: true
+  loss_r_weight: 1
+  loss_se3: true
+  loss_se3_weight: 0.01
+  loss_depth: true
+  loss_depth_weight: 1
+
+******************************** [Config] ********************************
+* Trackio project initialized: DROGrasp
+* Trackio metrics logged to: /home/wb/.cache/huggingface/trackio
+* View dashboard by running in your terminal:
+[1m[38;5;208mtrackio show --project "DROGrasp"[0m
+* or by running in Python: trackio.show(project="DROGrasp")
+* Created new run: videomanip_inspire_srv
+******** Load embedding network pretrain from <pretrain_inspire.pth> ********
+┏━━━┳━━━━━━━━━┳━━━━━━━━━┳━━━━━━━━┳━━━━━━━┳━━━━━━━┓
+┃   ┃ Name    ┃ Type    ┃ Params ┃ Mode  ┃ FLOPs ┃
+┡━━━╇━━━━━━━━━╇━━━━━━━━━╇━━━━━━━━╇━━━━━━━╇━━━━━━━┩
+│ 0 │ network │ Network │ 14.0 M │ train │     0 │
+└───┴─────────┴─────────┴────────┴───────┴───────┘
+Trainable params: 14.0 M                                                        
+Non-trainable params: 0                                                         
+Total params: 14.0 M                                                            
+Total estimated model params size (MB): 56.094                                  
+Modules in train mode: 199                                                      
+Modules in eval mode: 0                                                         
+Total FLOPs: 0                                                                  
+Training epoch: 1
+Training epoch: 2
+Training epoch: 3
+Training epoch: 4
+Training epoch: 5
+Saving state_dict at epoch: 5
+Training epoch: 6
+Training epoch: 7
+Training epoch: 8
+Training epoch: 9
+Training epoch: 10
+Saving state_dict at epoch: 10
+Training epoch: 11
+Training epoch: 12
+Training epoch: 13
+Training epoch: 14
+Training epoch: 15
+Saving state_dict at epoch: 15
+Training epoch: 16
+Training epoch: 17
+Training epoch: 18
+Training epoch: 19
+Training epoch: 20
+Saving state_dict at epoch: 20
+Training epoch: 21
+Training epoch: 22
+Training epoch: 23
+Training epoch: 24
+Training epoch: 25
+Saving state_dict at epoch: 25
+Training epoch: 26
+Training epoch: 27
+Training epoch: 28
+Training epoch: 29
+Training epoch: 30
+Saving state_dict at epoch: 30
+Training epoch: 31
+Training epoch: 32
+Training epoch: 33
+Training epoch: 34
+Training epoch: 35
+Saving state_dict at epoch: 35
+Training epoch: 36
+Training epoch: 37
+Training epoch: 38
+Training epoch: 39
+Training epoch: 40
+Saving state_dict at epoch: 40
+Training epoch: 41
+Training epoch: 42
+Training epoch: 43
+Training epoch: 44
+Training epoch: 45
+Saving state_dict at epoch: 45
+Training epoch: 46
+Training epoch: 47
+Training epoch: 48
+Training epoch: 49
+Training epoch: 50
+Saving state_dict at epoch: 50
+Training epoch: 51
+Training epoch: 52
+Training epoch: 53
+Training epoch: 54
+Training epoch: 55
+Saving state_dict at epoch: 55
+Training epoch: 56
+Training epoch: 57
+Training epoch: 58
+Training epoch: 59
+`Trainer.fit` stopped: `max_epochs=60` reached.
+Training epoch: 60
+Saving state_dict at epoch: 60
+Epoch 59/59 ━━━━━━━━━━━━━━━━━ 94/94 0:02:17 • 0:00:00 0.69it/s v_num: 0 loss_kl:
+                                                               0.165 loss_r:    
+                                                               0.550 loss_se3:  
+                                                               0.023 loss_depth:
+                                                               0.000 loss: 0.738
+* Run finished. Uploading logs to Trackio (please wait...)

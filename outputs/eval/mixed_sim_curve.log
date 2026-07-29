@@ -1,0 +1,99 @@
+=== epoch 15 21:44:47
+spraybottle: 0.07
+bottle: 0.15
+can: 0.13
+bulb: 0.08
+hat: 0.53
+jengabox: 0.18
+=== epoch 20 22:22:12
+spraybottle: 0.02
+bottle: 0.23
+can: 0.21
+bulb: 0.1
+hat: 0.6
+jengabox: 0.32
+=== videomanip_mixed epoch 25 22:54:01
+spraybottle: 0.09
+bottle: 0.21
+can: 0.17
+bulb: 0.04
+hat: 0.7
+jengabox: 0.34
+=== videomanip_mixed3x epoch 5 23:06:36
+spraybottle: 0.19
+bottle: 0.27
+can: 0.34
+bulb: 0.51
+hat: 0.97
+jengabox: 0.54
+=== videomanip_mixed epoch 30 23:29:18
+spraybottle: 0.05
+bottle: 0.13
+can: 0.08
+bulb: 0.0
+hat: 0.29
+jengabox: 0.1
+=== videomanip_mixed3x epoch 10 23:32:01
+spraybottle: 0.04
+bottle: 0.04
+can: 0.09
+bulb: 0.04
+hat: 0.35
+jengabox: 0.06
+=== videomanip_mixed3x epoch 15 23:44:27
+spraybottle: 0.13
+bottle: 0.19
+can: 0.26
+bulb: 0.15
+hat: 0.48
+jengabox: 0.23
+=== videomanip_mixed epoch 35 00:07:02
+spraybottle: 0.05
+bottle: 0.22
+can: 0.25
+bulb: 0.03
+hat: 0.45
+jengabox: 0.21
+=== videomanip_mixed3x epoch 20 00:09:42
+spraybottle: 0.18
+bottle: 0.21
+can: 0.26
+bulb: 0.09
+hat: 0.85
+jengabox: 0.4
+=== videomanip_mixed3x epoch 25 00:22:16
+spraybottle: 0.14
+bottle: 0.5
+can: 0.13
+bulb: 0.1
+hat: 0.9
+jengabox: 0.28
+=== videomanip_mixed epoch 40 00:44:55
+spraybottle: 0.05
+bottle: 0.26
+can: 0.18
+bulb: 0.14
+hat: 0.71
+jengabox: 0.37
+=== videomanip_mixed3x epoch 30 00:47:47
+spraybottle: 0.21
+bottle: 0.39
+can: 0.17
+bulb: 0.05
+hat: 1.0
+jengabox: 0.46
+=== videomanip_mixed3x epoch 35 01:00:37
+spraybottle: 0.08
+bottle: 0.25
+can: 0.09
+bulb: 0.04
+hat: 0.92
+jengabox: 0.19
+=== videomanip_mixed3x epoch 40 01:23:19
+spraybottle: 0.02
+bottle: 0.21
+can: 0.14
+bulb: 0.1
+hat: 0.92
+jengabox: 0.33
+all done

@@ -1,0 +1,64 @@
+=== selfdistill epoch 1 13:15:55
+spraybottle: 0.2
+bottle: 0.13
+can: 0.23
+bulb: 0.34
+hat: 0.59
+jengabox: 0.31
+=== selfdistill epoch 2 13:23:32
+spraybottle: 0.13
+bottle: 0.11
+can: 0.07
+bulb: 0.05
+hat: 0.34
+jengabox: 0.15
+=== selfdistill epoch 3 13:25:53
+spraybottle: 0.14
+bottle: 0.25
+can: 0.19
+bulb: 0.18
+hat: 0.54
+jengabox: 0.26
+=== selfdistill epoch 4 13:33:27
+spraybottle: 0.05
+bottle: 0.11
+can: 0.16
+bulb: 0.42
+hat: 0.42
+jengabox: 0.25
+=== selfdistill epoch 5 13:35:47
+spraybottle: 0.04
+bottle: 0.15
+can: 0.19
+bulb: 0.4
+hat: 0.37
+jengabox: 0.22
+=== selfdistill epoch 6 13:43:30
+spraybottle: 0.1
+bottle: 0.18
+can: 0.05
+bulb: 0.11
+hat: 0.34
+jengabox: 0.17
+=== selfdistill epoch 7 13:45:47
+spraybottle: 0.07
+bottle: 0.33
+can: 0.14
+bulb: 0.13
+hat: 0.39
+jengabox: 0.25
+=== selfdistill epoch 8 13:48:06
+spraybottle: 0.13
+bottle: 0.45
+can: 0.33
+bulb: 0.14
+hat: 0.59
+jengabox: 0.43
+=== selfdistill epoch 10 13:55:42
+spraybottle: 0.18
+bottle: 0.15
+can: 0.11
+bulb: 0.09
+hat: 0.42
+jengabox: 0.25
+selfdistill eval done

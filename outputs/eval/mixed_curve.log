@@ -1,0 +1,10 @@
+=== epoch 5 20:30:35
+[filter] spraybottle: 37/100 grasps with >=100 contacts, <=300 pen pts (median contacts 69)
+[filter] hat: 35/100 grasps with >=100 contacts, <=300 pen pts (median contacts 94)
+=== epoch 10 21:11:25
+[filter] spraybottle: 5/100 grasps with >=100 contacts, <=300 pen pts (median contacts 758)
+[filter] hat: 0/100 grasps with >=100 contacts, <=300 pen pts (median contacts 1136)
+=== epoch 15 21:42:16
+[filter] spraybottle: 25/100 grasps with >=100 contacts, <=300 pen pts (median contacts 542)
+[filter] hat: 13/100 grasps with >=100 contacts, <=300 pen pts (median contacts 1000)
+=== epoch 20 22:23:05

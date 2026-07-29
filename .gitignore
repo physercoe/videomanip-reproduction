@@ -23,5 +23,6 @@ data/reference/
 
 # --- Outputs: keep only eval evidence (result jsons, curves, predictions) ---
 outputs/*/*
+!outputs/eval/*
 !outputs/*/eval/
 !outputs/*/dro/
