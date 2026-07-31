@@ -723,3 +723,20 @@ GLB grasp fails only because the ~13mm GLB-fit error makes it spawn-overlapping)
   hand+handflow records (6 obj), predicted-grasp npz, GLB-derived meshes, eval jsons+curves+trackio db.
   Upload via `scripts/upload_hf.py` (log `outputs/eval/hf_upload.log`): 78/78 jobs OK;
   remote tree verified = 2996 files / 2.65 GiB (checkpoints 2.5 GiB = 48 epoch ckpts).
+
+## 2026-07-31 — Offline reproduction kit on T7 SSD (stardata/videomanip)
+
+- Built with `scripts/make_offline_kit.sh` → `/media/wb/T7/stardata/videomanip/` (198 GB,
+  9 tar archives + git bundle + SHA256SUMS + README). exfat drive → uncompressed tars
+  (preserve symlinks/hardlinks/perms; restore is an exact replica).
+- Contents: `project.tar` (18 GB; working tree + .git + all outputs/), `models.tar`
+  (10 GB; drograsp/hamer/handflow/mano/sam2), 6 venv tars (76 GB; isaaclab232, recon,
+  handflow, contactopt, triposr, lab3-parked), `huggingface-cache.tar` (17 GB),
+  `uv-kit.tar` (79 GB; full uv wheel cache + cpython dists + uv binary →
+  `uv pip install --offline -r envs/freeze-*.txt` works air-gapped),
+  `videomanip-reproduction.bundle` (full git history).
+- Restore/run guide for the air-gapped server: `docs/OFFLINE_SERVER.md` (master) =
+  kit-root `README.md`. Includes smoke test w/ expected numbers, no-/app fallback
+  (symlink re-points + DETECTOR_CKPT/MANO_ROOT env overrides), local retrain recipe.
+- Verified: every tar read end-to-end (entry counts logged), bundle = complete history,
+  SHA256SUMS on the drive for post-copy verification.

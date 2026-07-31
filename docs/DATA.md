@@ -11,6 +11,11 @@ DRO checkpoints incl. full epoch series, derived CMapDataset_* datasets, hand re
 predicted grasps, GLB-derived meshes, all eval result jsons) at
 <https://huggingface.co/datasets/physer/videomanip-reproduction>.
 
+**Offline kit (2026-07-31)**: `/media/wb/T7/stardata/videomanip/` (T7 SSD, 198 GB) —
+everything needed to reproduce on an air-gapped server (project tree, models, all venvs,
+HF cache, uv wheel cache, git bundle, SHA256SUMS). Restore/run guide:
+`docs/OFFLINE_SERVER.md`; rebuild kit: `scripts/make_offline_kit.sh`.
+
 ## Shared locations
 
 | Path | Contents | Used by |
